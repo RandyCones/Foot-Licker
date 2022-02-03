@@ -7,6 +7,13 @@ html {
 *:after {
   box-sizing: inherit;
 }
+p.sixtynine-hidden{
+  display:none;
+}
+.sixtynine-show{
+  display:contents;
+  position:absolute;
+}
 .cf:before,
 .cf:after {
   content: " ";
